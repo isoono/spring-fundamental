@@ -1,0 +1,13 @@
+apply plugin: 'java' //그레이들 java 플러그인을 적용
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+compileJava.options.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-context:5.0.2.RELEASE'
+}
