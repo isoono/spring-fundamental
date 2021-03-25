@@ -12,8 +12,8 @@ public class DbConfig {
     DataSource ds = new DataSource();
     ds.setDriverClassName("org.postgresql.Driver");
     ds.setUrl("jdbc:postgresql://localhost:5432/spring5fs?characterEncoding=utf8");
-    ds.setUsername("practice");
-    ds.setPassword("practice");
+    ds.setUsername("spring5");
+    ds.setPassword("spring5");
     ds.setInitialSize(2);
     ds.setMaxActive(10);
     return ds;
